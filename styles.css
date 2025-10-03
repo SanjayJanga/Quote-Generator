@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: url(https://images.unsplash.com/photo-1568667256549-094345857637?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGlicmFyaWVzfGVufDB8fDB8fHww) no-repeat center center/cover;
+}
+.header {
+  font-size: 1.2rem;
+  border: solid 2px #fff;
+  color: #fff;
+  background-color: #262626;
+  padding: 5px;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+.main-content {
+  width: 100%;
+  max-width: 600px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px 40px;
+  box-shadow: 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.main-content .text-area {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  max-height: 180px;
+  overflow-y: auto;
+  word-wrap: break-word;
+}
+
+.main-content .person {
+  font-size: 1.6rem;
+  color: red;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.button-area button {
+    background-color: #262626;
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.button-area button:active {
+    background-color: lightblue;
+}
